@@ -1,0 +1,14 @@
+{
+  "name": "swc-react-compiler-eslint-suppression-repro",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "repro": "node repro.mjs"
+  },
+  "devDependencies": {
+    "@babel/core": "7.28.5",
+    "@swc/core": "1.16.22",
+    "babel-plugin-react-compiler": "1.0.0",
+    "babel-plugin-react-compiler-experimental": "npm:babel-plugin-react-compiler@0.0.0-experimental-a1856f3-20260507"
+  }
+}
